@@ -19,13 +19,13 @@ I feel like an icon picker is a pretty common requirement so I was surprised to 
 Install via npm
 
 ```cli
-npm install react-fa-icon-picker
+npm install react-fa-icon-picker-fa5
 ```
 
 or yarn
 
 ```cli
-yarn add react-fa-icon-picker
+yarn add react-fa-icon-picker-fa5
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ The IconPicker component is just like any other picker component. The value prop
 
 ```react
 import * as React from 'react'
-import { IconPicker } from 'react-fa-icon-picker'
+import { IconPicker } from 'react-fa-icon-picker-fa5'
 
 export default () => {
   const [value, setValue] = useState("")
@@ -48,7 +48,7 @@ You can also use the IconPickerItem component to render the icon. This uses reac
 
 ```react
 import * as React from 'react'
-import { IconPickerItem } from 'react-fa-icon-picker'
+import { IconPickerItem } from 'react-fa-icon-picker-fa5'
 
 export default () => (
   <IconPickerItem icon="FaAdobe" size={24} color="#000" onClick={onClick} />
